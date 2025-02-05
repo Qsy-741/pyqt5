@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1246</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,1">
+   <item>
+    <widget class="SingleDirectionScrollArea" name="SingleDirectionScrollArea">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border = 0px</string>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>813</width>
+        <height>1527</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="BodyLabel" name="BodyLabel">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string># 实训答案
+
+&gt;  注: 仅供参考
+
+## 1
+
+```
+平台将学生实验情况、学习行为和结果的全流程数据完整记录，支持教师管理教学内容，满足多种类型教学管理场景需求。
+课程管理：提供全面的课程管理功能，包括课程发布、更新、删除等操作，确保课程资源的时效性和准确性。 
+班级管理：支持创建和管理班级，方便教师对学生进行课程的分配和管理
+学情分析：通过数据分析，提供学生的学习进度、成绩等统计信息，帮助教师及时了解学生的学习状况，以便进行针对性的指导。
+智能考评：提供自动判题系统，能够自动评判用户提交的代码或者答题结果，并且给出及时的对错反馈。
+```
+
+## 2
+
+```教学高效便捷 - 易教易学
+教学高效便捷 - 易教易学
+平台拥有海量的教学资源，包括教学视频、课程PPT、实验指导手册等，覆盖数据处理、AI开发、训练、部署、推理等全流程
+从课前备课、授课到课后练习、评估，均提供全面的支持，帮助教师轻松教学，学生高效学习。
+实践导向教学 - 重实践应用
+注重将理论知识与实际应用场景相结合，通过实训项目，让学生在实际操作中掌握和应用所学知识。
+通过实验案例和实训环境，引导学生将所学知识应用于实际问题的解决，提升实践能力和创新能力。
+```
+
+## 3
+
+```
+1.1支持多种常见的题型，包括简答题、论述题、案例分析题（支持基于算力卡的案例分析题）等，满足人工智能专业的培训和考试的需求。
+1.2提供题库管理功能，方便管理员对题目进行录入、修改、删除等操作。
+1.3提供丰富的综合案例实训课程供培训学习。
+1.4系统使用人工智能技术自动评分，高效准确。
+1.5多维度的考试分数统计，支持Excel导出成文件。
+2.1 简洁明了的界面设计，方便用户快速上手。
+2.2 组织考试简单易上手，只需要四步（录入题目、创建试卷、发布考试、统计分析），高效且智能。
+2.3 支持一键恢复试题，自动保存考试过程、交卷警示等一系列误操作控制。
+3.1严格的身份认证机制，确保只有合法的用户才能登录进入考试。
+3.2设置防作弊功能，如（限制多开考试窗口、考试时间未到不能打开考试页面、考试时间结束自动关闭考试页面等。
+3.3可以自主选择考试题的发布和下架，如在考试开始前，选择发布试题。在考试介绍后下架试题
+4.1可根据用户需求进行定制，包括试题类型、考试时间限制等，以满足各类考试场景的需求。
+4.2 用户可根据自身需求设置试卷，如题目分值、得分关键字等。
+```
+
+## 4
+
+```系统具备高效、稳定的性能，可支持大量用户同时在线。
+系统具备高效、稳定的性能，可支持大量用户同时在线。
+系统具备良好的可扩展性，能根据客户需求进行平滑升级，确保客户业务发展需要。
+支持云端使部署和本地部署。
+集群管理节点	cpu:16核心32线程、64GB内存、2TB硬盘*2、SSD 1TB	用于运行前/后端服务、数据库、NFS、镜像仓库、集群管理节点
+集群计算节点（无算力卡）	cpu:24核心48线程、128GB内存、SSD 1TB	用于创建案例分析题的实操环境。
+按两道题计算，一位考生需要要用到4线程8GB内存。共支持12~16位考生。
+根据案例分析题的题目设计也可以调整为一位考生用到4线程4GB内存。可支持18~20位考生。
+集群计算节点（有算力卡）	cpu:24核心48线程、128GB内存、SSD 100TB、算力卡24GB*2	用于创建需要使用算力卡的案例分析题实操环境。
+按一道题计算，一位考生需要用到2线程4GB内存2GB显存。可支持18~20位考生
+```
+
+## 5
+
+协助学校部署职业技能等级认定系统，支持本地服务器部署和通过浏览器访问提供的远程访问网址进行部署。
+为认定单位的讲师提供必要的系统使用培训和操作指导
+提供持续的技术支持和客户服务，解决学校在使用过程中遇到的问题。
+定期收集认定单位反馈，不断优化系统功能和用户体验。
+定期评估合作效果，包括系统使用情况、学院参与度等。
+根据评估结果，及时调整合作策略和支持计划。
+
+## 6
+
+对话大模型：进行对话聊天
+法律大模型： 进行法律问答
+文生图实验： 进行文字生成图片
+图生图实验： 进行图片微调等
+图像高清化模型： 使图片变清晰
+合并实验 ：两个图像合并
+AI音乐生成实验 ：文字生成音乐
+AI数字人实验： 让图片上的人张口说话
+
+## 7
+
+在“max_new_tokens”调整到2000之后，再返回“大模型对话”界面，点击重新生成，即可完整的生成回答。
+
+## 8
+
+导航流程动态展示
+利用场景定位地图标示导览点位，并依据机器人的实际移动情况实时更新导览进程。使用户可直观地查看当前参观位置及后续计划，提升参观体验。
+定点讲解导航
+根据展览内容，预设多个关键讲解展位并进行地图标记。在接近目标展位时，机器人能够精准停靠，提供详细的展品讲解，并与用户进行互动交流。
+导航信息更新
+如展位临时维护或关闭时，通过对接数据接口，可以上传并更新路径规划和点位标记，重新导航，避开维护展台。
+
+## 9
+
+导览机器人具备多种语言交互功能，针对不同的使用场景，提供多样化的服务能力，通过这些功能，机器人能够在特定场景下提供准确、专业的回答和动作执行。
+可根据不同业务需求，可进行个性化配置，当访客咨询内容超出所配置的范围时，机器人可通过搭载的大语言模型，自主与访客进行互动，打破传统限制性交互，真正做到听得懂、聊得来、有问必答。
+
+## 10
+
+人脸识别
+机器人可以为VIP会员、员工、访客创建不同角色并设定接待任务，实现角色与服务的完美融合。
+多媒体互动
+机器人可以根据用户需求跳转至内容页面，并以语音、视频、图文等形式进行多样化展现，秒级切换，问答清晰，人机交互自然流畅。
+个性化讲解
+机器人能够根据不同场景例如展馆、博物馆、企业等，提供定制化内容讲解服务，结合多媒体视频和智能肢体动作，增强用户互动和体验。
+定制动作调用
+机器人即时执行指定动作组，通过同步协调，实现流畅自然的互动。切换至不同动作组速度快，展示效果细腻，确保人机互动的无缝连接。
+
+</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::MarkdownText</enum>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="TitleLabel" name="TitleLabel">
+       <property name="text">
+        <string>Python Code Editor</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="TextEdit" name="CodeEdit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>500</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PushButton" name="RunButton">
+       <property name="text">
+        <string>运行</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="TextEdit" name="Code_stdio">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>SingleDirectionScrollArea</class>
+   <extends>QScrollArea</extends>
+   <header>qfluentwidgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BodyLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TextEdit</class>
+   <extends>QTextEdit</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

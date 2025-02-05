@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LedExample</class>
+ <widget class="QWidget" name="LedExample">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>919</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,3,0,0">
+   <item>
+    <widget class="TitleLabel" name="led_Title">
+     <property name="text">
+      <string>台灯实验</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="ImageLabel" name="led_image">
+     <property name="maximumSize">
+      <size>
+       <width>1000</width>
+       <height>1000</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="PushButton" name="led1_btn">
+       <property name="text">
+        <string>开关1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PushButton" name="led2_btn">
+       <property name="text">
+        <string>开关2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PushButton" name="led3_btn">
+       <property name="text">
+        <string>开关3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="PushButton" name="led4_btn">
+       <property name="text">
+        <string>开关4</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="IconWidget" name="light_image"/>
+     </item>
+     <item>
+      <widget class="Slider" name="light_slider">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="ComboBox" name="light_ComboBox"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ComboBox</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>Slider</class>
+   <extends>QSlider</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>IconWidget</class>
+   <extends>QWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>ImageLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

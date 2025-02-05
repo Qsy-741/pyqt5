@@ -1,0 +1,211 @@
+2024-08-21 11:26:14,728 - 'NoneType' object has no attribute 'write'
+2024-08-21 11:26:39,369 - 125.0
+2024-08-21 11:26:40,821 - 127.0
+2024-08-21 11:26:43,617 - Traceback (most recent call last):
+2024-08-21 11:26:43,617 - File "C:\Users\Admin\PycharmProjects\PYQT5_Project\jisuanqicore.py", line 128, in sum_result
+2024-08-21 11:26:43,618 - result = self.calculation()
+2024-08-21 11:26:43,618 - ^
+2024-08-21 11:26:43,618 - ^
+2024-08-21 11:26:43,618 - ^
+2024-08-21 11:26:43,618 - ^
+2024-08-21 11:26:43,619 - ^
+2024-08-21 11:26:43,619 - ^
+2024-08-21 11:26:43,619 - ^
+2024-08-21 11:26:43,619 - ^
+2024-08-21 11:26:43,619 - ^
+2024-08-21 11:26:43,619 - ^
+2024-08-21 11:26:43,619 - ^
+2024-08-21 11:26:43,620 - ^
+2024-08-21 11:26:43,620 - ^
+2024-08-21 11:26:43,620 - ^
+2024-08-21 11:26:43,620 - ^
+2024-08-21 11:26:43,620 - ^
+2024-08-21 11:26:43,620 - ^
+2024-08-21 11:26:43,620 - ^
+2024-08-21 11:26:43,620 - File "C:\Users\Admin\PycharmProjects\PYQT5_Project\jisuanqicore.py", line 113, in calculation
+2024-08-21 11:26:43,621 - result = self.num_list[0] + next_num
+2024-08-21 11:26:43,621 - ~
+2024-08-21 11:26:43,621 - ~
+2024-08-21 11:26:43,621 - ~
+2024-08-21 11:26:43,621 - ~
+2024-08-21 11:26:43,621 - ~
+2024-08-21 11:26:43,622 - ~
+2024-08-21 11:26:43,622 - ~
+2024-08-21 11:26:43,622 - ~
+2024-08-21 11:26:43,622 - ~
+2024-08-21 11:26:43,622 - ~
+2024-08-21 11:26:43,622 - ~
+2024-08-21 11:26:43,623 - ~
+2024-08-21 11:26:43,623 - ~
+2024-08-21 11:26:43,623 - ^
+2024-08-21 11:26:43,623 - ^
+2024-08-21 11:26:43,623 - ^
+2024-08-21 11:26:43,623 - IndexError
+2024-08-21 11:26:43,623 - :
+2024-08-21 11:26:43,623 - list index out of range
+2024-08-27 13:21:11,483 - ('C:/Users/Admin/PycharmProjects/PYQT5_Project/firmware/target.bin', '*bin')
+2024-08-27 13:21:11,484 - COM8
+2024-08-27 13:23:13,462 - ('C:/Program Files (x86)/qsyf/AvatarCode+/_internal/firmware/target.bin', '*bin')
+2024-08-27 13:23:13,462 - COM8
+2024-08-27 13:23:42,362 - ('C:/Program Files (x86)/qsyf/AvatarCode+/_internal/firmware/target.bin', '*bin')
+2024-08-27 13:23:42,362 - COM8
+2024-09-06 15:42:50,009 - 'NoneType' object has no attribute 'write'
+2024-09-06 15:43:48,289 - 'NoneType' object has no attribute 'write'
+2024-09-06 15:43:49,703 - 'NoneType' object has no attribute 'write'
+2024-09-06 15:43:50,569 - 'NoneType' object has no attribute 'write'
+2024-09-06 15:46:07,343 - 'NoneType' object has no attribute 'write'
+2024-09-06 15:46:08,456 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:16,263 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:17,485 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:18,008 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:18,072 - 串口外圈try
+2024-09-06 16:21:18,072 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 16:21:18,072 - 结束串口接收
+2024-09-06 16:21:19,145 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:19,608 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:20,571 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:20,900 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:22,086 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:22,542 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:23,630 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:24,014 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:24,025 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:24,039 - 串口外圈try
+2024-09-06 16:21:24,039 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 16:21:24,039 - 结束串口接收
+2024-09-06 16:21:24,948 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:24,960 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:25,391 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:25,392 - 串口外圈try
+2024-09-06 16:21:25,392 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 16:21:25,392 - 结束串口接收
+2024-09-06 16:21:26,320 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:26,900 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:32,899 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:33,421 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:33,444 - 串口外圈try
+2024-09-06 16:21:33,444 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 16:21:33,444 - 结束串口接收
+2024-09-06 16:21:34,494 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:34,892 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:34,905 - 串口外圈try
+2024-09-06 16:21:34,905 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 16:21:34,905 - 结束串口接收
+2024-09-06 16:21:36,045 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:36,352 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:21:38,192 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:23:23,854 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:23:24,978 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:23:26,028 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:23:28,133 - 'NoneType' object has no attribute 'write'
+2024-09-06 16:40:47,355 - ('', '*bin')
+2024-09-06 16:40:47,355 - None
+2024-09-06 16:40:47,386 - Attempting to use a port that is not open
+2024-09-06 16:48:26,157 - Attempting to use a port that is not open
+2024-09-06 16:48:26,189 - 结束串口接收
+2024-09-06 16:48:27,198 - Attempting to use a port that is not open
+2024-09-06 16:50:08,444 - Attempting to use a port that is not open
+2024-09-06 16:50:08,466 - 结束串口接收
+2024-09-06 16:50:29,169 - Attempting to use a port that is not open
+2024-09-06 17:27:42,756 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:27:42,794 - 串口外圈try
+2024-09-06 17:27:42,795 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 17:27:42,795 - 结束串口接收
+2024-09-06 17:27:44,639 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:27:46,249 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:27:46,261 - 串口外圈try
+2024-09-06 17:27:46,261 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 17:27:46,261 - 结束串口接收
+2024-09-06 17:27:47,495 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:27:48,339 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:27:48,351 - 串口外圈try
+2024-09-06 17:27:48,351 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 17:27:48,361 - 结束串口接收
+2024-09-06 17:27:49,296 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:30:09,839 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:30:09,851 - Traceback (most recent call last):
+2024-09-06 17:30:09,851 - File "C:\Users\Admin\PycharmProjects\PYQT5_Project\CardView.py", line 226, in show_touch_dialog
+2024-09-06 17:30:09,851 - 串口外圈try
+2024-09-06 17:30:09,852 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 17:30:09,852 - self.ui8 = TouchCore()
+2024-09-06 17:30:09,852 - 结束串口接收
+2024-09-06 17:30:09,852 - ^
+2024-09-06 17:30:09,853 - ^
+2024-09-06 17:30:09,853 - ^
+2024-09-06 17:30:09,853 - ^
+2024-09-06 17:30:09,853 - ^
+2024-09-06 17:30:09,853 - ^
+2024-09-06 17:30:09,853 - ^
+2024-09-06 17:30:09,854 - ^
+2024-09-06 17:30:09,854 - ^
+2024-09-06 17:30:09,854 - ^
+2024-09-06 17:30:09,854 - ^
+2024-09-06 17:30:09,854 - File "C:\Users\Admin\PycharmProjects\PYQT5_Project\TouchCore.py", line 18, in __init__
+2024-09-06 17:30:09,854 - self.animation = QPropertyAnimation(self.image_label, b"pos")
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,855 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - ^
+2024-09-06 17:30:09,856 - AttributeError
+2024-09-06 17:30:09,857 - :
+2024-09-06 17:30:09,857 - 'TouchCore' object has no attribute 'image_label'
+2024-09-06 17:30:09,857 - . Did you mean: '
+2024-09-06 17:30:09,857 - ImageLabel
+2024-09-06 17:30:09,857 - '?
+2024-09-06 17:31:12,231 - 'NoneType' object has no attribute 'write'
+2024-09-06 17:31:12,244 - 串口外圈try
+2024-09-06 17:31:12,244 - 'NoneType' object has no attribute 'is_open'
+2024-09-06 17:31:12,244 - 结束串口接收
+2024-09-06 17:31:12,245 - Traceback (most recent call last):
+2024-09-06 17:31:12,245 - File "C:\Users\Admin\PycharmProjects\PYQT5_Project\CardView.py", line 226, in show_touch_dialog
+2024-09-06 17:31:12,245 - self.ui8 = TouchCore()
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,246 - ^
+2024-09-06 17:31:12,247 - ^
+2024-09-06 17:31:12,247 - ^
+2024-09-06 17:31:12,247 - ^
+2024-09-06 17:31:12,247 - File "C:\Users\Admin\PycharmProjects\PYQT5_Project\TouchCore.py", line 18, in __init__
+2024-09-06 17:31:12,247 - self.animation = QPropertyAnimation(self.image_label, b"pos")
+2024-09-06 17:31:12,247 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,248 - ^
+2024-09-06 17:31:12,249 - ^
+2024-09-06 17:31:12,249 - ^
+2024-09-06 17:31:12,249 - ^
+2024-09-06 17:31:12,249 - ^
+2024-09-06 17:31:12,249 - ^
+2024-09-06 17:31:12,249 - ^
+2024-09-06 17:31:12,249 - AttributeError
+2024-09-06 17:31:12,249 - :
+2024-09-06 17:31:12,250 - 'TouchCore' object has no attribute 'image_label'
+2024-09-06 17:31:12,250 - . Did you mean: '
+2024-09-06 17:31:12,250 - ImageLabel
+2024-09-06 17:31:12,250 - '?
+2024-09-09 17:48:12,327 - 'NoneType' object has no attribute 'write'
+2024-09-09 17:48:14,203 - gunddong
+2024-09-09 17:48:15,434 - gunddong

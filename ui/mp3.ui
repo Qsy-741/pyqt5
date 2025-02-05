@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MP3_Form</class>
+ <widget class="QWidget" name="MP3_Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="TransparentPushButton" name="add_volume">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>110</y>
+     <width>176</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Transparent push button</string>
+   </property>
+  </widget>
+  <widget class="TransparentPushButton" name="TransparentPushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>370</y>
+     <width>176</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Transparent push button</string>
+   </property>
+  </widget>
+  <widget class="TransparentPushButton" name="play_pause">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>220</y>
+     <width>176</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Transparent push button</string>
+   </property>
+  </widget>
+  <widget class="TransparentPushButton" name="next_song">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>220</y>
+     <width>176</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Transparent push button</string>
+   </property>
+  </widget>
+  <widget class="TransparentPushButton" name="previous_song">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>176</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Transparent push button</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>TransparentPushButton</class>
+   <extends>PushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

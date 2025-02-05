@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>首页资源</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.5;
+    padding: 1em 2em;
+    max-width: 800px;
+    margin: 0;
+	text-align: left; /* 设置文本左对齐 */
+  }
+
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    margin-top: 1.5em;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  figure.table-figure {
+    margin: 1em 0;
+  }
+</style>
+</head>
+<body>
+<h1 id='一模块介绍'>一、模块介绍</h1>
+
+<h2 id='1矩阵键盘'>1、矩阵键盘</h2>
+<h3 id='模块介绍'>模块介绍</h3>
+<p>触摸键盘模块是通过 <a href='https://emakefun-docs.readthedocs.io/zh-cn/latest/sensors/base_modules/matrix_keyboard_module_v3.0/16键触摸键盘_VK36N16I规格书_V12.pdf'>VK36N16I</a> 芯片驱动，共16个触摸键。</p>
+<p>VK36N16I芯片是一款使用电容感应式原理设计的触摸芯片,可用来检测外部触摸按键上人手的触摸动作。该系列的芯片具有较高的集成度，仅需极少的外部组件便可实现触摸按键的检测。模块使用IIC通讯，可方便与外部 MCU 之间的通讯，实现设备安装及触摸引脚监测目的。</p>
+
+<h3 id='技术规格'>技术规格</h3>
+<ul>
+  <li>工作电压：5V</li>
+  <li>连接方式：磁吸接口</li>
+  <li>模块尺寸：56*70mm</li>
+  <li>I2C地址：0x65</li>
+</ul>
+
+<h3 id='引脚说明'>引脚说明</h3>
+<figure class='table-figure'>
+  <table>
+    <thead>
+      <tr>
+        <th>引脚名称</th>
+        <th>描述</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>G</td>
+        <td>GND地线</td>
+      </tr>
+      <tr>
+        <td>V</td>
+        <td>3~5.5V</td>
+      </tr>
+      <tr>
+        <td>SCL</td>
+        <td>时钟引脚</td>
+      </tr>
+      <tr>
+        <td>SDA</td>
+        <td>数据引脚</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
+<h2 id='2rgb灯环'>2、RGB灯环</h2>
+<h3 id='模块介绍-2'>模块介绍</h3>
+<p>WS2812是一个集控制电路与发光电路于一体的智能外控LED光源。其外型与一个5050LED灯珠相同， 每个元件即为一个像素点。像素点内部包含了智能数字接口数据锁存信号整形放大驱动电路， 还包含有高精度的内部振荡器和12V高压可编程定电流控制部分，有效保证了像素点光的颜色高度一致。</p>
+<p>数据协议采用单线归零码的通讯方式，像素点在上电复位以后，DIN端接受从控制器传输过来的数据，首先送过来的24bit数据被第一个像素点提取后，送到像素点内部的数据锁存器，剩余的数据经过内部整形处理电路整形放大后通过DO端口开始转发输出给下一个级联的像素点，每经过一个像素点的传输，信号减少24bit。每一个灯珠信号由IN脚输入，OUT输出连接到下一个灯珠的IN脚。像素点采用自动整形转发技术，使得该像素点的级联个数不受信号传送的限制，仅仅受限信号传输速度要求。</p>
+<p>LED具有低电压驱动，环保节能，亮度高，散射角度大，一致性好，超低功率，超长寿命等优点。将控制电路集成于上面，电路变得更加简单，体积小，安装更加简便。</p>
+
+<h3 id='技术规格-2'>技术规格</h3>
+<ul>
+  <li>工作电压：5V</li>
+  <li>连接方式：PH2.0接口、磁吸接口</li>
+  <li>模块尺寸：56*70mm</li>
+</ul>
+
+<h3 id='引脚说明-2'>引脚说明</h3>
+<figure class='table-figure'>
+  <table>
+    <thead>
+      <tr>
+        <th>引脚名称</th>
+        <th>描述</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>V</td>
+        <td>5V电源引脚</td>
+      </tr>
+      <tr>
+        <td>G</td>
+        <td>GND 地线</td>
+      </tr>
+      <tr>
+        <td>S</td>
+        <td>灯环RGB信号输入引脚</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+
+<h2 id='3无源蜂鸣器'>3、无源蜂鸣器</h2>
+<h3 id='模块介绍-3'>模块介绍</h3>
+<p> 有些电器在电气状态下经常会发出嗡嗡声，这实际上来自蜂鸣器，学校里铃声只是一个更大的蜂鸣器。 蜂鸣器有两种，一种是主动蜂鸣器，另一种是被动蜂鸣器。 “主动”和“被动”并不是指是否需要提供电源，而是指有或没有内部振荡器的蜂鸣器。有源蜂鸣器只要给它通电，就会发出嗡嗡声，但频率是固定的。 主要用于一些报警装置上，如烟雾报警器。</p>
+
+<h3 id='模块参数'>模块参数</h3>
+<ul>
+  <li>供电电压:5V</li>
+  <li>连接方式:PH2.0接口、磁吸接口</li>
+  <li>模块尺寸:4*2.1cm</li>
+</ul>
+
+<h3 id='引脚说明-3'>引脚说明</h3>
+<figure class='table-figure'>
+  <table>
+    <thead>
+      <tr>
+        <th>引脚名称</th>
+        <th>描述</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>V</td>
+        <td>5V电源引脚</td>
+      </tr>
+      <tr>
+        <td>G</td>
+        <td>GND 地线</td>
+      </tr>
+      <tr>
+        <td>S</td>
+        <td>信号引脚</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+</body>
+</html>
