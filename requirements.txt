@@ -1,0 +1,6 @@
+colorthief==0.2.1
+darkdetect==0.8.0
+intelhex==2.3.0
+PyQt5_Frameless_Window==0.3.9
+pyserial==3.5
+setuptools==69.5.1
